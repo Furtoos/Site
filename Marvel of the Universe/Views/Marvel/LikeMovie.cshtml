@@ -1,0 +1,17 @@
+﻿@model Marvel_of_the_Universe.Models.Movie
+<h4 style="padding:5px">@Model.Likes.Where(c => c.like == true).Count()</h4>
+@using (Ajax.BeginForm("LikeMovie", "Marvel", new AjaxOptions { UpdateTargetId = "like", HttpMethod = "POST" }))
+{
+    @Html.Hidden("MovieId", Model.Id)
+    <button type="submit">
+        <img src="~/Images/Like/Like.png" width="35" height="35" />
+    </button>
+}
+<h4 style="padding:5px"> @Model.Likes.Where(c => c.like == false).Count() </h4>
+@using (Ajax.BeginForm("DislikeMovie", "Marvel", new AjaxOptions { UpdateTargetId = "like", HttpMethod = "POST" }))
+{
+    @Html.Hidden("MovieId", Model.Id)
+    <button type="submit">
+        <img src="~/Images/Like/Dislike.png" width="35" height="35" />
+    </button>
+}

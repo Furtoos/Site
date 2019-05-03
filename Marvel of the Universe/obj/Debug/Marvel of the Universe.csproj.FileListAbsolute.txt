@@ -1,0 +1,194 @@
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Marvel of the Universe.dll.config
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Marvel of the Universe.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Marvel of the Universe.pdb
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csc.exe
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csc.exe.config
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csc.rsp
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csi.exe
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csi.exe.config
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csi.rsp
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.AppContext.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Console.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.IO.Compression.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.IO.Pipes.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Claims.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.ValueTuple.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\vbc.exe
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\vbc.exe.config
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\vbc.rsp
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\VBCSCompiler.exe
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Antlr3.Runtime.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\EntityFramework.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\EntityFramework.SqlServer.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Google.Protobuf.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\MySql.Data.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\MySql.Data.Entity.EF6.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Newtonsoft.Json.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Helpers.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Mvc.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Optimization.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Razor.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.Razor.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\WebGrease.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\EntityFramework.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\EntityFramework.SqlServer.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Google.Protobuf.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\MySql.Data.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\MySql.Data.Entity.EF6.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Helpers.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Mvc.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Optimization.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Razor.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.Razor.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Newtonsoft.Json.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Antlr3.Runtime.pdb
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.Razor.resources.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\obj\Debug\Marvel of the Universe.csproj.CoreCompileInputs.cache
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\obj\Debug\Marvel of the Universe.csproj.CopyComplete
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\obj\Debug\Marvel of the Universe.dll
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\obj\Debug\Marvel of the Universe.pdb
+C:\Users\MAKS\Desktop\ASP.NET MVC\Marvel of the Universe\Marvel of the Universe\obj\Debug\Marvel of the Universe.csprojAssemblyReference.cache
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Marvel of the Universe.dll.config
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Marvel of the Universe.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Marvel of the Universe.pdb
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csc.exe
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csc.exe.config
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csc.rsp
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csi.exe
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csi.exe.config
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\csi.rsp
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.AppContext.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Collections.Immutable.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Console.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.IO.Compression.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.IO.FileSystem.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.IO.Pipes.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Reflection.Metadata.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.AccessControl.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Claims.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Security.Principal.Windows.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.ValueTuple.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Xml.XPath.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\vbc.exe
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\vbc.exe.config
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\vbc.rsp
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\VBCSCompiler.exe
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\roslyn\VBCSCompiler.exe.config
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Antlr3.Runtime.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\EntityFramework.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\EntityFramework.SqlServer.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Google.Protobuf.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\MySql.Data.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\MySql.Data.Entity.EF6.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Newtonsoft.Json.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Diagnostics.DiagnosticSource.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Helpers.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Mvc.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Optimization.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Razor.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.Deployment.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.Razor.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\WebGrease.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\EntityFramework.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\EntityFramework.SqlServer.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Google.Protobuf.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\MySql.Data.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\MySql.Data.Entity.EF6.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Helpers.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Mvc.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Optimization.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.Razor.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.Deployment.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Web.WebPages.Razor.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Newtonsoft.Json.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Antlr3.Runtime.pdb
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\System.Diagnostics.DiagnosticSource.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.Helpers.resources.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.Mvc.resources.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.Optimization.resources.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.Razor.resources.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.WebPages.resources.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.WebPages.Deployment.resources.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\ru\System.Web.WebPages.Razor.resources.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\obj\Debug\Marvel of the Universe.csprojAssemblyReference.cache
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\obj\Debug\Marvel of the Universe.csproj.CoreCompileInputs.cache
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\obj\Debug\Marvel of the Universe.csproj.CopyComplete
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\obj\Debug\Marvel of the Universe.dll
+E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\obj\Debug\Marvel of the Universe.pdb

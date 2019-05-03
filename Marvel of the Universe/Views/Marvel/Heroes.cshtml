@@ -1,0 +1,26 @@
+﻿@model Marvel_of_the_Universe.Models.IndexViewHeroe
+@using Marvel_of_the_Universe.Helpers;
+<link rel="shortcut icon" type="image/x-icon" href="~/favicon.ico" />
+@{
+    ViewBag.Title = "Heroes";
+}
+<div class="container-fluid padding">
+    <div class="row">
+        @foreach (var item in Model.Heroes)
+        {
+            <div class="card-group col-md-4" style="padding:10px;">
+                <div class="card text-danger border-danger ">
+                    <a href="Heroe/@item.Id"><img height="350" width="140" href="Marvel/Heroe" src="~/Images/Heroes/@item.Image" class="card-img-top figure-img" /></a>
+                    <h5 class="card-title text-center">@Html.DisplayFor(modelItem => item.Name)</h5>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<div class="row mx-auto">
+    <div class="btn-group mx-auto">
+        @Html.PageLinks(Model.PageInfo, x => Url.Action("Heroes", "Marvel", new { page = x }))
+    </div>
+</div>
+
+
