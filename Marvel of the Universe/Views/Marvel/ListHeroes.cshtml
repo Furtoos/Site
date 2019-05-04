@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Marvel_of_the_Universe.Models.Heroe>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="card-group col-md-4" style="padding:10px;">
+            <div class="card text-danger border-danger ">
+                <a href="@Url.Action("Heroe","Marvel", new { id = item.Id})"><img height="350" width="140" src="~/Images/Heroes/@item.Image" class="card-img-top figure-img" /></a>
+                <h5 class="card-title text-center">@Html.DisplayFor(modelItem => item.Name)</h5>
+            </div>
+        </div>
+    }
+</div>

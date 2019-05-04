@@ -31,14 +31,36 @@ namespace Marvel_of_the_Universe.Models
             get { return Convert.ToInt32(Math.Ceiling((decimal)TotalItems / PageSize)); }
         }
     }
-    public class IndexViewHeroe
+    public class IndexViewHeroes
     {
         public IEnumerable<Heroe> Heroes { get; set; }
         public PageInfo PageInfo { get; set; }
     }
-    public class IndexViewMovie
+    public class IndexViewMovies
     {
         public IEnumerable<Movie> Movies { get; set; }
         public PageInfo PageInfo { get; set; }
+    }
+    public class ListInfo
+    {
+        public int ListNumber { get; set; }
+        public int ListSize { get; set; }
+        public int TotalItems { get; set; }
+        public int TotalList
+        {
+            get { return Convert.ToInt32(Math.Ceiling((decimal)TotalItems / ListSize)); }
+        }
+    }
+    public class ViewHeroe
+    {
+        public Heroe Heroe { get; set; }
+        public IEnumerable<Movie> Movies { get; set; }
+        public ListInfo ListInfo { get; set; }
+    }
+    public class ViewMovie
+    {
+        public Movie Movie { get; set; }
+        public IEnumerable<Heroe> Heroes { get; set; }
+        public ListInfo ListInfo { get; set; }
     }
 }
