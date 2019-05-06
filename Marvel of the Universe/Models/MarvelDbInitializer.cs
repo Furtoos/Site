@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
+using System.Net;
 using System.Web;
+using System.Web.Security;
+using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
 using MySql.Data.MySqlClient;
+
 namespace Marvel_of_the_Universe.Models
 {
     public class MarvelDbInitializer : DropCreateDatabaseAlways<MarvelContext>
@@ -12,6 +17,7 @@ namespace Marvel_of_the_Universe.Models
         MySqlConnection conn;
         protected override void Seed(MarvelContext context)
         {
+            FormsAuthentication.SignOut();
             connect_string = "server=localhost;user=root;database=marvel;password=Furtoo380977856617ss;";
             conn = new MySqlConnection(connect_string);
             MarvelContext db = new MarvelContext();

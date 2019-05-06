@@ -4,6 +4,13 @@
 
     ViewBag.Title = "Heroe";
 }
+<script type="text/javascript">
+    var onSuccess = function (result) {
+        if (result.url) {
+            window.location.href = result.url;
+        }
+    }
+</script>
 <div class="container-fluid padding">
     <div class="row">
         <div class="col-md-4">
@@ -15,7 +22,7 @@
             <p><h5>Skills: @Model.Heroe.Skills</h5></p>
             <div id="like" class="row mx-auto">
                 <h4 style="padding:5px">@Model.Heroe.Likes.Where(c => c.like == true).Count()</h4>
-                @using (Ajax.BeginForm("LikeHeroe", "Marvel", new AjaxOptions { UpdateTargetId = "like", HttpMethod = "POST" }))
+                @using (Ajax.BeginForm("LikeHeroe", "Marvel", new AjaxOptions { UpdateTargetId = "like", HttpMethod = "POST", OnSuccess ="onSuccess" }))
                 {
                     @Html.Hidden("HeroeId", Model.Heroe.Id)
                     <button type="submit">
@@ -23,7 +30,7 @@
                     </button>
                 }
                 <h4 style="padding:5px">@Model.Heroe.Likes.Where(c => c.like == false).Count()</h4>
-                @using (Ajax.BeginForm("DislikeHeroe", "Marvel", new AjaxOptions { UpdateTargetId = "like", HttpMethod = "POST" }))
+                @using (Ajax.BeginForm("DislikeHeroe", "Marvel", new AjaxOptions { UpdateTargetId = "like", HttpMethod = "POST", OnSuccess = "onSuccess" }))
                 {
                     @Html.Hidden("HeroeId", Model.Heroe.Id)
                     <button type="submit">
@@ -75,7 +82,7 @@
             }
         }
     </div>
-    @using (Ajax.BeginForm("NewComment", "Marvel", new AjaxOptions { UpdateTargetId = "comments", HttpMethod = "POST", InsertionMode = InsertionMode.InsertAfter }))
+    @using (Ajax.BeginForm("NewComment", "Marvel", new AjaxOptions { UpdateTargetId = "comments", HttpMethod = "POST", InsertionMode = InsertionMode.InsertAfter, OnSuccess = "onSuccess" }))
     {
         @Html.Hidden("Id", Model.Heroe.Comments.Count + 1)
         @Html.TextArea("Text", "Comment", 5, 200, null)

@@ -14,7 +14,7 @@ namespace Marvel_of_the_Universe
     {
         protected void Application_Start()
         {
-            //Database.SetInitializer(new MarvelDbInitializer());
+            Database.SetInitializer(new MarvelDbInitializer());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

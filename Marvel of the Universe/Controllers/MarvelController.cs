@@ -66,10 +66,18 @@ namespace Marvel_of_the_Universe.Controllers
             ViewHeroe vh = new ViewHeroe { ListInfo = listInfo, Heroe = heroe, Movies = moviesOnList };
             return View(vh);
         }
-        [Authorize]
         [HttpPost]
         public ActionResult NewComment(Comment comment)
         {
+            User user = null;
+            using (UserContext db = new UserContext())
+            {
+                user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
+            }
+            if (user == null)
+            {
+                return Json(new { url = Url.Action("Login", "Account") });
+            }
             if (comment.HeroeId != null)
             {
                 Heroe heroe = db.Heroes.Find(comment.HeroeId);
@@ -89,10 +97,18 @@ namespace Marvel_of_the_Universe.Controllers
                 return PartialView("Comment", comment);
             }
         }
-        [Authorize]
         [HttpPost]
         public ActionResult LikeHeroe(int? heroeId)
         {
+            User user = null;
+            using (UserContext db = new UserContext())
+            {
+                user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
+            }
+            if (user == null)
+            {
+                return Json(new { url = Url.Action("Login","Account") });
+            }
             Like like = db.Likes.Where(l => l.UserName == User.Identity.Name).FirstOrDefault();
             Heroe heroe = db.Heroes.Find(heroeId);
             if (heroe == null)
@@ -134,10 +150,18 @@ namespace Marvel_of_the_Universe.Controllers
             }
             return PartialView("LikeHeroe", heroe);
         }
-        [Authorize]
         [HttpPost]
         public ActionResult DislikeHeroe(int? heroeId)
         {
+            User user = null;
+            using (UserContext db = new UserContext())
+            {
+                user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
+            }
+            if (user == null)
+            {
+                return Json(new { url = Url.Action("Login", "Account") });
+            }
             Like like = db.Likes.Where(l => l.UserName == User.Identity.Name).FirstOrDefault();
             Heroe heroe = db.Heroes.Find(heroeId);
             if (heroe == null)
@@ -179,10 +203,18 @@ namespace Marvel_of_the_Universe.Controllers
             }
             return PartialView("LikeHeroe", heroe);
         }
-        [Authorize]
         [HttpPost]
         public ActionResult LikeMovie(int? movieId)
         {
+            User user = null;
+            using (UserContext db = new UserContext())
+            {
+                user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
+            }
+            if (user == null)
+            {
+                return Json(new { url = Url.Action("Login", "Account") });
+            }
             Like like = db.Likes.Where(l => l.UserName == User.Identity.Name).FirstOrDefault();
             Movie movie = db.Movies.Find(movieId);
             if (movie == null)
@@ -224,10 +256,18 @@ namespace Marvel_of_the_Universe.Controllers
             }
             return PartialView("LikeMovie", movie);
         }
-        [Authorize]
         [HttpPost]
         public ActionResult DislikeMovie(int? movieId)
         {
+            User user = null;
+            using (UserContext db = new UserContext())
+            {
+                user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
+            }
+            if (user == null)
+            {
+                return Json(new { url = Url.Action("Login", "Account") });
+            }
             Like like = db.Likes.Where(l => l.UserName == User.Identity.Name).FirstOrDefault();
             Movie movie = db.Movies.Find(movieId);
             if (movie == null)
