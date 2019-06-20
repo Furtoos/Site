@@ -70,10 +70,7 @@ namespace Marvel_of_the_Universe.Controllers
         public ActionResult NewComment(Comment comment)
         {
             User user = null;
-            using (UserContext db = new UserContext())
-            {
-                user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
-            }
+            user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
             if (user == null)
             {
                 return Json(new { url = Url.Action("Login", "Account") });
@@ -101,10 +98,7 @@ namespace Marvel_of_the_Universe.Controllers
         public ActionResult LikeHeroe(int? heroeId)
         {
             User user = null;
-            using (UserContext db = new UserContext())
-            {
-                user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
-            }
+            user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
             if (user == null)
             {
                 return Json(new { url = Url.Action("Login","Account") });
@@ -154,10 +148,7 @@ namespace Marvel_of_the_Universe.Controllers
         public ActionResult DislikeHeroe(int? heroeId)
         {
             User user = null;
-            using (UserContext db = new UserContext())
-            {
-                user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
-            }
+            user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
             if (user == null)
             {
                 return Json(new { url = Url.Action("Login", "Account") });
@@ -207,10 +198,7 @@ namespace Marvel_of_the_Universe.Controllers
         public ActionResult LikeMovie(int? movieId)
         {
             User user = null;
-            using (UserContext db = new UserContext())
-            {
-                user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
-            }
+            user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
             if (user == null)
             {
                 return Json(new { url = Url.Action("Login", "Account") });
@@ -260,10 +248,7 @@ namespace Marvel_of_the_Universe.Controllers
         public ActionResult DislikeMovie(int? movieId)
         {
             User user = null;
-            using (UserContext db = new UserContext())
-            {
-                user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
-            }
+            user = db.Users.FirstOrDefault(u => u.Email == User.Identity.Name);
             if (user == null)
             {
                 return Json(new { url = Url.Action("Login", "Account") });

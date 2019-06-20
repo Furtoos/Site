@@ -5,25 +5,51 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title</title>
+    @Scripts.Render("~/bundles/bootstrap")
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    <link rel="stylesheet" type="text/css" href="~/Content/StyleRed.css" />
     <link rel="styleMain" type="text/css" href="~/Content/mainStyle.css" />
 </head>
 <body>
 
     <div class="offset-2 col-md-8 body-content main">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-            <a class="navbar-brand" href="/Marvel/Index">Marvel</a>
+        <nav class="navbar navbar-expand navbar-light justify-content-between bg-danger">
+            <a class="navbar-brand text-dark" href="/Marvel/Index">Marvel</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="/Marvel/Heroes">Heroes</a>
-                    <a class="nav-item nav-link" href="/Marvel/Movies">Movies</a>
-                    <a class="nav-item nav-link" href="/Account/Index">User</a>
-                </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-md-auto">
+                    <li class="nav-item active ">
+                        <a class="nav-link" href="/Marvel/Heroes">Heroes <span class="sr-only">(current)</span></a>
+
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/Marvel/Movies">Movies</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-md-auto">
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item ">
+                                <a class="nav-link" href=@Url.Action("Index","Admin")>Panel</a>
+                            </li>
+                        }
+                        <li class="nav-item ">
+                            <a class="nav-link" href=@Url.Action("Logout","Account")>Log out</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item ">
+                            <a class="nav-link" href="/Account/Login">Sign in</a>
+                        </li>
+                    }
+                </ul>
             </div>
         </nav>
         @RenderBody()
