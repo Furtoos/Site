@@ -1,12 +1,7 @@
 ﻿using Marvel_of_the_Universe.Models;
-using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.Owin;
-using Microsoft.Owin.Security;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
@@ -15,87 +10,82 @@ namespace Marvel_of_the_Universe.Controllers
 {
     public class AccountController : Controller
     {
-        private ApplicationUserManager UserManager
+        [Authorize]
+        public ActionResult Index()
         {
-            get
+            UserContext db = new UserContext();
+            User user = db.Users.Where(u => u.Email == User.Identity.Name).FirstOrDefault();
+            if (user == null)
             {
-                return HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
+                return RedirectToAction("Login", "Account");
             }
+            else { return View(user); }
+             
         }
-        private IAuthenticationManager AuthManager
+        public ActionResult Login()
         {
-            get
-            {
-                return HttpContext.GetOwinContext().Authentication;
-            }
-        }
-        [AllowAnonymous]
-        public ActionResult Login(string returnUrl)
-        {
-            ViewBag.returnUrl = returnUrl;
             return View();
         }
         [HttpPost]
-        [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Login(LoginModel model, string returnUrl)
+        public ActionResult Login(LoginModel model)
         {
             if (ModelState.IsValid)
             {
-                User user = await UserManager.FindAsync(model.Email, model.Password);
-                if (user == null)
+                User user = null;
+                using (UserContext db = new UserContext())
                 {
-                    ModelState.AddModelError("", "Неверный логин или пароль.");
+                    user = db.Users.FirstOrDefault(u => u.Email == model.Name && u.Password == model.Password);
+                }
+                if (user != null)
+                {
+                    FormsAuthentication.SetAuthCookie(model.Name, true);
+                    return RedirectToAction("Index", "Marvel");
                 }
                 else
                 {
-                    ClaimsIdentity ident = await UserManager.CreateIdentityAsync(user,
-                    DefaultAuthenticationTypes.ApplicationCookie);
-                    AuthManager.SignOut();
-                    AuthManager.SignIn(new AuthenticationProperties
-                    {
-                        IsPersistent = false
-                    }, ident);
-                    if (String.IsNullOrEmpty(returnUrl))
-                        return RedirectToAction("Index", "Marvel");
-                    return Redirect(returnUrl);
+                    ModelState.AddModelError("", "Пользыватель с таким логином и паролем нет");
                 }
             }
-            ViewBag.returnUrl = returnUrl;
-            return View(model);
+            return View();
         }
-        
         public ActionResult Register()
         {
             return View();
         }
         [HttpPost]
-        public async Task<ActionResult> Register(RegisterModel model)
+        [ValidateAntiForgeryToken]
+        public ActionResult Register(RegisterModel model)
         {
             if (ModelState.IsValid)
             {
-                User user = new User { UserName = model.Email, Email = model.Email };
-                IdentityResult result = await UserManager.CreateAsync(user, model.Password);
-                if (result.Succeeded)
+                User user = null;
+                using (UserContext db = new UserContext())
                 {
-                    await UserManager.AddToRoleAsync(user.Id, "user");
-                    //await SignInManager.SingInAsync(user, isPersistent: false, rememberBrowser: false);
-                    return RedirectToAction("Index", "Marvel");
+                    user = db.Users.FirstOrDefault(u => u.Email == model.Name);
+                }
+                if (user == null)
+                {
+                    using (UserContext db = new UserContext())
+                    {
+                        db.Users.Add(new User { Email = model.Name, Password = model.Password, Age = model.Age });
+                        db.SaveChanges();
+
+                        user = db.Users.Where(u => u.Email == model.Name && u.Password == model.Password).FirstOrDefault();
+                    }
+                    if (user != null)
+                    {
+                        FormsAuthentication.SetAuthCookie(model.Name, true);
+                        return RedirectToAction("Index", "Marvel");
+                    }
                 }
                 else
                 {
-                    foreach (string error in result.Errors)
-                    {
-                        ModelState.AddModelError("", error);
-                    }
+                    ModelState.AddModelError("", "Пользыватель с таким логином уже существует");
                 }
             }
             return View(model);
         }
-        public ActionResult Logout()
-        {
-            AuthManager.SignOut();
-            return RedirectToAction("Index", "Marvel");
-        }
+
     }
 }

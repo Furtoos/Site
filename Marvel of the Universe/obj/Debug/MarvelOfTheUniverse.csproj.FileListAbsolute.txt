@@ -110,5 +110,3 @@ E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.Owin.xml
 E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.Owin.Security.xml
 E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.Owin.Security.Cookies.xml
 E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.Owin.Security.OAuth.xml
-E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.Owin.Host.SystemWeb.dll
-E:\ASP.NET\Marvel of the Universe\Marvel of the Universe\bin\Microsoft.Owin.Host.SystemWeb.xml

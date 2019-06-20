@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -8,7 +7,6 @@ namespace Marvel_of_the_Universe.Models
 {
     public class Like
     {
-        [Key]
         public int Id { get; set; }
         public bool like { get; set; }
         public string UserName { get; set; }

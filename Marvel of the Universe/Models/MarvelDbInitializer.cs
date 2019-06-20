@@ -8,38 +8,16 @@ using System.Web.Security;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using MySql.Data.MySqlClient;
-using Microsoft.Owin.Security;
-using Marvel_of_the_Universe.Controllers;
-using Microsoft.AspNet.Identity.EntityFramework;
 
 namespace Marvel_of_the_Universe.Models
 {
-
     public class MarvelDbInitializer : DropCreateDatabaseAlways<MarvelContext>
     {
         public string connect_string;
         MySqlConnection conn;
         protected override void Seed(MarvelContext context)
         {
-            //Добавление ролей
-            var userManager = new ApplicationUserManager(new UserStore<User>(context));
-            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
-
-            var role1 = new IdentityRole { Name = "User" };
-            var role2 = new IdentityRole { Name = "Admin" };
-
-            roleManager.Create(role1);
-            roleManager.Create(role2);
-            //Добавление админа
-            var admin = new User { Email = "Admin", UserName = "Admin" };
-            string password = "Admin12345678";
-            var result = userManager.Create(admin, password);
-            if (result.Succeeded)
-            {
-                userManager.AddToRole(admin.Id, role1.Name);
-                userManager.AddToRole(admin.Id, role2.Name);
-            }
-            //Добавление контента
+            FormsAuthentication.SignOut();
             connect_string = "server=localhost;user=root;database=marvel;password=Furtoo380977856617ss;";
             conn = new MySqlConnection(connect_string);
             MarvelContext db = new MarvelContext();
@@ -50,7 +28,6 @@ namespace Marvel_of_the_Universe.Models
             zapros = "select * from heroe";
             command = new MySqlCommand(zapros, conn);
             reader = command.ExecuteReader();
-            //Добавление героев
             while (reader.Read())
             {
                 Heroe heroe = new Heroe();
@@ -81,7 +58,6 @@ namespace Marvel_of_the_Universe.Models
             zapros = "select * from movie";
             command = new MySqlCommand(zapros, conn);
             reader = command.ExecuteReader();
-            //Добавление фильмов
             while (reader.Read())
             {
                 Movie movie = new Movie();
